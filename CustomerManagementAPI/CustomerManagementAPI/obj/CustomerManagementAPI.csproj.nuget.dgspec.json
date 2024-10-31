@@ -4,6 +4,381 @@
     "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagementAPI/CustomerManagementAPI.csproj": {}
   },
   "projects": {
+    "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.DTO/CustomerManagement.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.DTO/CustomerManagement.DTO.csproj",
+        "projectName": "CustomerManagement.DTO",
+        "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.DTO/CustomerManagement.DTO.csproj",
+        "packagesPath": "/Users/LiangLyu/.nuget/packages/",
+        "outputPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.DTO/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/LiangLyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/CustomerManagement.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/CustomerManagement.Interface.csproj",
+        "projectName": "CustomerManagement.Interface",
+        "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/CustomerManagement.Interface.csproj",
+        "packagesPath": "/Users/LiangLyu/.nuget/packages/",
+        "outputPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/LiangLyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.DTO/CustomerManagement.DTO.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.DTO/CustomerManagement.DTO.csproj"
+              },
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/CustomerManagement.Model.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/CustomerManagement.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/CustomerManagement.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/CustomerManagement.Model.csproj",
+        "projectName": "CustomerManagement.Model",
+        "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/CustomerManagement.Model.csproj",
+        "packagesPath": "/Users/LiangLyu/.nuget/packages/",
+        "outputPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/LiangLyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Repository/CustomerManagement.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Repository/CustomerManagement.Repository.csproj",
+        "projectName": "CustomerManagement.Repository",
+        "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Repository/CustomerManagement.Repository.csproj",
+        "packagesPath": "/Users/LiangLyu/.nuget/packages/",
+        "outputPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/LiangLyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.DTO/CustomerManagement.DTO.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.DTO/CustomerManagement.DTO.csproj"
+              },
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/CustomerManagement.Interface.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/CustomerManagement.Interface.csproj"
+              },
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/CustomerManagement.Model.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/CustomerManagement.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.35, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.35, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Service/CustomerManagement.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Service/CustomerManagement.Service.csproj",
+        "projectName": "CustomerManagement.Service",
+        "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Service/CustomerManagement.Service.csproj",
+        "packagesPath": "/Users/LiangLyu/.nuget/packages/",
+        "outputPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/LiangLyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.DTO/CustomerManagement.DTO.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.DTO/CustomerManagement.DTO.csproj"
+              },
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/CustomerManagement.Interface.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/CustomerManagement.Interface.csproj"
+              },
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/CustomerManagement.Model.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/CustomerManagement.Model.csproj"
+              },
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Repository/CustomerManagement.Repository.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Repository/CustomerManagement.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagementAPI/CustomerManagementAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +401,23 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.DTO/CustomerManagement.DTO.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.DTO/CustomerManagement.DTO.csproj"
+              },
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/CustomerManagement.Interface.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/CustomerManagement.Interface.csproj"
+              },
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/CustomerManagement.Model.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/CustomerManagement.Model.csproj"
+              },
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Repository/CustomerManagement.Repository.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Repository/CustomerManagement.Repository.csproj"
+              },
+              "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Service/CustomerManagement.Service.csproj": {
+                "projectPath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Service/CustomerManagement.Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

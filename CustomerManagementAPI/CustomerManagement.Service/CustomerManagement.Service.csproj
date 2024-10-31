@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerManagement.Interface\CustomerManagement.Interface.csproj" />
+    <ProjectReference Include="..\CustomerManagement.DTO\CustomerManagement.DTO.csproj" />
+    <ProjectReference Include="..\CustomerManagement.Model\CustomerManagement.Model.csproj" />
+    <ProjectReference Include="..\CustomerManagement.Repository\CustomerManagement.Repository.csproj" />
+  </ItemGroup>
+</Project>

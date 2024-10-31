@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CustomerManagement.Interface/1.0.0": {
+        "dependencies": {
+          "CustomerManagement.DTO": "1.0.0",
+          "CustomerManagement.Model": "1.0.0"
+        },
+        "runtime": {
+          "CustomerManagement.Interface.dll": {}
+        }
+      },
+      "CustomerManagement.DTO/1.0.0": {
+        "runtime": {
+          "CustomerManagement.DTO.dll": {}
+        }
+      },
+      "CustomerManagement.Model/1.0.0": {
+        "runtime": {
+          "CustomerManagement.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomerManagement.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomerManagement.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomerManagement.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

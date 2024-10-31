@@ -1,33 +1,57 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CustomerManagement.DTO;
+using CustomerManagement.Interface;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CustomerManagementAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+public class CustomerController : ControllerBase
 {
-    private static readonly string[] Summaries = new[]
-    {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+    private readonly ICustomerService _customerService;
 
-    private readonly ILogger<WeatherForecastController> _logger;
-
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    public CustomerController(
+        ICustomerService customerService)
     {
-        _logger = logger;
+        _customerService = customerService;
     }
 
-    [HttpGet(Name = "GetWeatherForecast")]
-    public IEnumerable<WeatherForecast> Get()
+    [HttpPost("/createCustomer")]
+    public async Task<ActionResult<CustomerDTO>> CreateCustomer(CustomerDTO customerDto)
     {
-        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+        try
         {
-            Date = DateTime.Now.AddDays(index),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-        })
-        .ToArray();
+            var customer = await _customerService.CreateCustomerAsync(customerDto);
+            return CreatedAtAction(nameof(GetCustomers), new { id = customer.Id }, customer);
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(ex.Message);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+        }
+    }
+
+    [HttpGet("/getCustomers")]
+    public async Task<ActionResult<IEnumerable<CustomerDTO>>> GetCustomers()
+    {
+        try
+        {
+            var customers = await _customerService.GetCustomersAsync();
+            return Ok(customers);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+        }
+    }
+
+    [HttpGet("/auth")]
+    public async Task<ActionResult<IEnumerable<CustomerDTO>>> GetToken()
+    {
+        return true
     }
 }
 

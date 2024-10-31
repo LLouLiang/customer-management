@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{87C2A305-CD00-4F10-9D1E-F4EFA0806FF6}|Default">
+  <MonoDevelop.Ide.ItemProperties.CustomerManagement.Interface FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.CustomerManagement.Repository FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.CustomerManagementAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CustomerManagement.Service FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomerManagement.Service/CustomerService.cs">
+    <Files>
+      <File FileName="CustomerManagement.DTO/CustomerDTO.cs" Line="14" Column="1" />
+      <File FileName="CustomerManagement.Model/Customer.cs" Line="13" Column="3" />
+      <File FileName="CustomerManagement.Interface/Repository/ICustomerRepository.cs" Line="13" Column="1" />
+      <File FileName="CustomerManagement.Interface/ICustomerService.cs" Line="10" Column="60" />
+      <File FileName="CustomerManagement.Repository/CustomerRepository.cs" Line="30" Column="1" />
+      <File FileName="CustomerManagementAPI/Controllers/WeatherForecastController.cs" Line="25" Column="6" />
+      <File FileName="CustomerManagement.Service/CustomerService.cs" Line="27" Column="37" />
+      <File FileName="CustomerManagement.Repository/BaseRepository.cs" Line="11" Column="1" />
+      <File FileName="CustomerManagement.Repository/Data/CustomerDbContext.cs" Line="14" Column="1" />
+      <File FileName="CustomerManagement.Repository/Data/SqlQueryContext.cs" Line="9" Column="3" />
+      <File FileName="CustomerManagementAPI/Program.cs" Line="7" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CustomerManagementAPI" expanded="True">
+            <Node name="CustomerManagement.Service" selected="True" />
+            <Node name="CustomerManagementAPI">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

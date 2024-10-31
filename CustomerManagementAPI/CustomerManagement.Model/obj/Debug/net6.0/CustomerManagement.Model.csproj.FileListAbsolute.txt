@@ -1,0 +1,12 @@
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/obj/Debug/net6.0/CustomerManagement.Model.csproj.AssemblyReference.cache
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/obj/Debug/net6.0/CustomerManagement.Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/obj/Debug/net6.0/CustomerManagement.Model.AssemblyInfoInputs.cache
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/obj/Debug/net6.0/CustomerManagement.Model.AssemblyInfo.cs
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/obj/Debug/net6.0/CustomerManagement.Model.csproj.CoreCompileInputs.cache
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/bin/Debug/net6.0/CustomerManagement.Model.deps.json
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/bin/Debug/net6.0/CustomerManagement.Model.dll
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/bin/Debug/net6.0/CustomerManagement.Model.pdb
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/obj/Debug/net6.0/CustomerManagement.Model.dll
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/obj/Debug/net6.0/refint/CustomerManagement.Model.dll
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/obj/Debug/net6.0/CustomerManagement.Model.pdb
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Model/obj/Debug/net6.0/ref/CustomerManagement.Model.dll

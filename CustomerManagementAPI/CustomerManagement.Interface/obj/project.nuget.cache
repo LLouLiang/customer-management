@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BhB6gRW35xpNF0uYKop5xXV84hD1ZMX6SAITutB8xKssrttO7Kw3Dm26EhrD4BiGgf2Pi5SdM/GvpmUlnWLvtA==",
+  "success": true,
+  "projectFilePath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/CustomerManagement.Interface.csproj",
+  "expectedPackageFiles": [
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.31/microsoft.netcore.app.host.osx-arm64.6.0.31.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}

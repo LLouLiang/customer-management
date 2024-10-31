@@ -1,0 +1,17 @@
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/bin/Debug/net6.0/CustomerManagement.Interface.deps.json
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/bin/Debug/net6.0/CustomerManagement.Interface.dll
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/bin/Debug/net6.0/CustomerManagement.Interface.pdb
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/bin/Debug/net6.0/CustomerManagement.DTO.dll
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/bin/Debug/net6.0/CustomerManagement.Model.dll
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/bin/Debug/net6.0/CustomerManagement.DTO.pdb
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/bin/Debug/net6.0/CustomerManagement.Model.pdb
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/obj/Debug/net6.0/CustomerManagement.Interface.csproj.AssemblyReference.cache
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/obj/Debug/net6.0/CustomerManagement.Interface.GeneratedMSBuildEditorConfig.editorconfig
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/obj/Debug/net6.0/CustomerManagement.Interface.AssemblyInfoInputs.cache
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/obj/Debug/net6.0/CustomerManagement.Interface.AssemblyInfo.cs
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/obj/Debug/net6.0/CustomerManagement.Interface.csproj.CoreCompileInputs.cache
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/obj/Debug/net6.0/CustomerManagement.Interface.csproj.CopyComplete
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/obj/Debug/net6.0/CustomerManagement.Interface.dll
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/obj/Debug/net6.0/refint/CustomerManagement.Interface.dll
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/obj/Debug/net6.0/CustomerManagement.Interface.pdb
+/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagement.Interface/obj/Debug/net6.0/ref/CustomerManagement.Interface.dll

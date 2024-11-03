@@ -54,10 +54,6 @@
               "version": "[6.0.31, 6.0.31]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[6.0.31, 6.0.31]"
             }
@@ -128,10 +124,6 @@
               "version": "[6.0.31, 6.0.31]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[6.0.31, 6.0.31]"
             }
@@ -178,6 +170,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -192,10 +190,6 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
               "version": "[6.0.31, 6.0.31]"
             },
             {
@@ -282,10 +276,6 @@
               "version": "[6.0.31, 6.0.31]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[6.0.31, 6.0.31]"
             }
@@ -359,10 +349,6 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
               "version": "[6.0.31, 6.0.31]"
             },
             {

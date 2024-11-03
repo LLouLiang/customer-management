@@ -1,9 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "QcUABTvT2Vc6tlvo/yOnm6xzvUaXviAJneBTntpF7vRCgg1YtHKc7ITVzabPPltaaWlq7rhhLpEK0aWZ5iA0xQ==",
-  "success": true,
+  "dgSpecHash": "fpqukgAj1d+q109C4YJqwAgqOGgRoEUttvae/zo3JNm6z7QfwZAZH8FnwUgKjfL0DAOvPwY5dL3wZHhEQFYJWw==",
+  "success": false,
   "projectFilePath": "/Users/LiangLyu/Documents/reps/customer-management/customer-management/CustomerManagementAPI/CustomerManagementAPI/CustomerManagementAPI.csproj",
   "expectedPackageFiles": [
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.authentication/2.0.0/microsoft.aspnetcore.authentication.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.0.0/microsoft.aspnetcore.authentication.abstractions.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.authentication.cookies/2.0.0/microsoft.aspnetcore.authentication.cookies.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.authentication.core/2.0.0/microsoft.aspnetcore.authentication.core.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.cryptography.internal/2.0.0/microsoft.aspnetcore.cryptography.internal.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/2.0.0/microsoft.aspnetcore.cryptography.keyderivation.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.dataprotection/2.0.0/microsoft.aspnetcore.dataprotection.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.dataprotection.abstractions/2.0.0/microsoft.aspnetcore.dataprotection.abstractions.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.hosting.abstractions/2.0.0/microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.hosting.server.abstractions/2.0.0/microsoft.aspnetcore.hosting.server.abstractions.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.http/2.0.0/microsoft.aspnetcore.http.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.0.0/microsoft.aspnetcore.http.abstractions.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.http.extensions/2.0.0/microsoft.aspnetcore.http.extensions.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.http.features/2.0.0/microsoft.aspnetcore.http.features.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.identity/2.0.0/microsoft.aspnetcore.identity.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.webutilities/2.0.0/microsoft.aspnetcore.webutilities.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.entityframeworkcore/6.0.35/microsoft.entityframeworkcore.6.0.35.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.35/microsoft.entityframeworkcore.abstractions.6.0.35.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.35/microsoft.entityframeworkcore.analyzers.6.0.35.nupkg.sha512",
@@ -11,23 +28,153 @@
     "/Users/LiangLyu/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.extensions.caching.memory/6.0.2/microsoft.extensions.caching.memory.6.0.2.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.extensions.configuration.abstractions/2.0.0/microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.1/microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.extensions.fileproviders.abstractions/2.0.0/microsoft.extensions.fileproviders.abstractions.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.extensions.hosting.abstractions/2.0.0/microsoft.extensions.hosting.abstractions.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.extensions.identity.core/2.0.0/microsoft.extensions.identity.core.2.0.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.4/microsoft.extensions.logging.abstractions.6.0.4.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.extensions.objectpool/2.0.0/microsoft.extensions.objectpool.2.0.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.extensions.webencoders/2.0.0/microsoft.extensions.webencoders.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.identitymodel.abstractions/6.36.0/microsoft.identitymodel.abstractions.6.36.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.36.0/microsoft.identitymodel.jsonwebtokens.6.36.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.identitymodel.logging/6.36.0/microsoft.identitymodel.logging.6.36.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.identitymodel.tokens/6.36.0/microsoft.identitymodel.tokens.6.36.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.net.http.headers/2.0.0/microsoft.net.http.headers.2.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/microsoft.win32.registry/4.4.0/microsoft.win32.registry.4.4.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.collections/4.0.0/system.collections.4.0.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.componentmodel.annotations/4.4.0/system.componentmodel.annotations.4.4.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.diagnostics.debug/4.0.0/system.diagnostics.debug.4.0.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.globalization/4.0.0/system.globalization.4.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.identitymodel.tokens.jwt/6.36.0/system.identitymodel.tokens.jwt.6.36.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.io/4.0.0/system.io.4.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.resources.resourcemanager/4.0.0/system.resources.resourcemanager.4.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.runtime/4.0.20/system.runtime.4.0.20.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.runtime.extensions/4.0.0/system.runtime.extensions.4.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.security.accesscontrol/4.4.0/system.security.accesscontrol.4.4.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.security.claims/4.0.0/system.security.claims.4.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.security.cryptography.xml/4.4.0/system.security.cryptography.xml.4.4.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.security.principal/4.0.0/system.security.principal.4.0.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.security.principal.windows/4.4.0/system.security.principal.windows.4.4.0.nupkg.sha512",
+    "/Users/LiangLyu/.nuget/packages/system.text.encodings.web/4.4.0/system.text.encodings.web.4.4.0.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.31/microsoft.netcore.app.host.osx-arm64.6.0.31.nupkg.sha512",
     "/Users/LiangLyu/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Collections 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Collections",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Diagnostics.Debug 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Diagnostics.Debug",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Globalization 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Globalization",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IO 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.IO",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Resources.ResourceManager 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Resources.ResourceManager",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime 4.0.20' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Runtime",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.Extensions 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Runtime.Extensions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Claims 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Security.Claims",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Principal 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Security.Principal",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.AspNetCore.Identity from 2.2.0 to 2.0.0. Reference the package directly from the project to select a different version. \n CustomerManagementAPI -> CustomerManagement.Model -> Microsoft.AspNetCore.Identity (>= 2.2.0) \n CustomerManagementAPI -> Microsoft.AspNetCore.Identity (>= 2.0.0)",
+      "libraryId": "Microsoft.AspNetCore.Identity",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

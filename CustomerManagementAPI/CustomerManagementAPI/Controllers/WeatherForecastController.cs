@@ -47,11 +47,5 @@ public class CustomerController : ControllerBase
             return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
         }
     }
-
-    [HttpGet("/auth")]
-    public async Task<ActionResult<IEnumerable<CustomerDTO>>> GetToken()
-    {
-        return true
-    }
 }
 
